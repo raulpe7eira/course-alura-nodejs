@@ -21,7 +21,7 @@ function createDBConnection() {
         });
     }
 
-    if (process.env.NODE_ENV == 'prod') {
+    if (process.env.NODE_ENV == 'production') {
         return mysql.createConnection({
             host: '192.168.99.100',
             port: '3306',
