@@ -4,7 +4,8 @@
   "description": "Projeto p/ curso alura nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node app"
   },
   "author": "Raul Pereira <raul.pereira@gmail.com>",
   "license": "ISC",
@@ -20,5 +21,8 @@
   "devDependencies": {
     "mocha": "^4.0.1",
     "supertest": "^3.0.0"
+  },
+  "engines":{
+    "node" : "9.3.1"
   }
 }

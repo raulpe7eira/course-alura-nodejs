@@ -22,12 +22,13 @@ function createDBConnection() {
     }
 
     if (process.env.NODE_ENV == 'production') {
+        var url = process.env.CLEARDB_DATABASE_URL;
+        var grupos = url.match(/mysql:\/\/(.*):(.*)@(.*)\/(.*)\?/);
         return mysql.createConnection({
-            host: '192.168.99.100',
-            port: '3306',
-            user: 'root',
-            password: '',
-            database: 'course_alura_nodejs'
+            host:grupos[3],
+            user:grupos[1],
+            password:grupos[2],
+            database:grupos[4]
         });
     }
 }
