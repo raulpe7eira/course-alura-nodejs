@@ -17,7 +17,7 @@ O progresso das aulas foi separado por branches.
 - [Aula 10: Deploy](https://github.com/raulpe7eira/course-alura-nodejs/tree/Aula-10)
 
 ## Deploy Local
-Necessário ter um banco MySQL configurado e rodando para o código ser executado, [(alterar configurações de acesso neste arquivo)](../master/app/infra/connectionFactory.js). Tanto na base de desenvolvimento (course_alura_nodejs_dsv), quanto na de teste (course_alura_nodejs_tst) é necessário ter a tabela a seguir criada:
+Necessário ter um banco MySQL configurado e rodando para o código ser executado [(alterar configurações de acesso neste arquivo)](../master/app/infra/connectionFactory.js). Tanto na base de desenvolvimento (course_alura_nodejs_dsv), quanto na de teste (course_alura_nodejs_tst) é necessário ter a tabela a seguir criada:
 
 ```sql
 CREATE TABLE produtos (
