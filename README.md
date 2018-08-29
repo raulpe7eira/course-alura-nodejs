@@ -1,5 +1,6 @@
 # course-alura-nodejs
-Projeto desenvolvido no curso da Alura: [Node.js: Inovando com Javascript no Backend](https://cursos.alura.com.br/course/node-js)
+
+Resultado do curso **[Node.js: Inovando com Javascript no Backend](https://cursos.alura.com.br/course/node-js/)** da [Alura](https://alura.com.br).
 
 ## Aulas
 O progresso das aulas foi separado por branches.
